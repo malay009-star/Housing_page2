@@ -1,0 +1,62 @@
+.total-location {
+    // background-color: red;
+    width: 305px;
+    height: 270px;
+    flex-shrink: 0;
+}
+
+// why should choose us
+.chooseUs-sec {
+    background-color: #F9F9F9;
+}
+
+.why-should {
+    a {
+        font-size: 18px;
+    }
+    .second-learn {
+        color: #B236FF;
+    }
+    .third-learn {
+        color: #2857FF;
+    }
+}
+
+// form
+.form {
+    input {
+        color: white;
+    }
+    input::placeholder {
+        color: rgb(102, 102, 102);
+    }
+    textarea {
+        color: white;
+    }
+    textarea::placeholder {
+        color: rgb(102, 102, 102);
+    }
+    button:hover {
+        background-color: #ff4c96;
+    }
+}
+
+.women {
+    width: 570px;
+    height: 433px;
+}
+
+// footer
+.footer {
+    // align-items: center;
+    padding-top: 7.2rem;
+    padding-bottom: 3rem;
+    a {
+        color: #565656;
+        transition: all 0.35s ease;
+        &:hover {
+            color: #ff4c96;
+            padding-left: 10px;
+        }
+    }
+}

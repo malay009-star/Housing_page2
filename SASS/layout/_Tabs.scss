@@ -1,0 +1,161 @@
+.Tabs {
+    .nav-item {
+        border-bottom: 1px solid #727272;
+    }
+    button {
+        color: #565656;
+    }
+    #myTab .active {
+        color: #FF368A;
+        border: none;
+        border-bottom: 1px solid #FF368A;
+    }
+    .nav-tabs {
+        border: none;
+    }
+}
+
+.house-1 {
+    background-image: url('../../assets/img/feature1.png');
+    background-repeat: no-repeat;
+    // background-size: co;
+    background-position: center;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    // background-color: black;
+}
+
+.house-2 {
+    background-image: url('../../assets/img/feature2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.house-3 {
+    background-image: url('../../assets/img/feature3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.same-info {}
+
+.aprtment-1 {
+    background-image: url('../../assets/img/feature2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.aprtment-2 {
+    background-image: url('../../assets/img/feature1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.aprtment-3 {
+    background-image: url('../../assets/img/feature3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.land-1 {
+    background-image: url('../../assets/img/feature1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.land-2 {
+    background-image: url('../../assets/img/feature3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.land-3 {
+    background-image: url('../../assets/img/feature2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.view-1 {
+    background-image: url('../../assets/img/feature1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.view-2 {
+    background-image: url('../../assets/img/feature2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.view-3 {
+    background-image: url('../../assets/img/feature3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+// what is true title
+.True-title {
+    width: 100%;
+    margin: auto;
+    margin: 7.2rem 0rem;
+    padding: 4rem 0rem;
+    background-image: url('../../assets/img/layers.png');
+}
