@@ -88,16 +88,14 @@
                 h3 {
                     // background-color: red;
                     color: #FFF;
-                    font-family: VIOLA;
                     font-size: 52px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: 110px;
+                    line-height: 100px;
                     font-family: myFont;
                     ;
                 }
                 .get-btn {
-                    // padding: 10px 0px;
                     align-items: center;
                     background: rgba(255, 255, 255, 0.1);
                     backdrop-filter: blur(5px);
@@ -106,7 +104,7 @@
                 }
                 .get-btn a:nth-child(2) {
                     display: inline-block;
-                    padding: 13px 15px;
+                    padding: 17px 15px;
                     background-color: white;
                     &:hover {
                         background-color: rgb(235, 235, 235);
@@ -119,7 +117,7 @@
         .selectors {
             // width: 970px;
             // margin: auto;
-            align-items: center;
+            // align-items: center;
             height: 80px;
             flex-shrink: 0;
             padding: 10px;
@@ -141,6 +139,15 @@
                     background-color: #f4e2ff;
                 }
             }
+            select {
+                backdrop-filter: red;
+                cursor: pointer;
+            }
+            form {
+                cursor: pointer;
+                // background-color: red;
+                font-size: 15px;
+            }
             p {
                 margin-bottom: 0;
             }
@@ -153,6 +160,93 @@
                 &:hover {
                     transform: scale(1.05);
                     background-color: $primary-color;
+                }
+            }
+        }
+        
+        // media queries 
+        @include xl-screen {
+            .main-sec {
+                .hero-sec {
+                    // background-color: red;
+                    padding-top: 1rem;
+                }
+                .heading-col {
+                    height: 345px;
+                    // background-color: red;
+                    h3 {
+                        // background-color: blue;
+                        font-size: 45px;
+                        line-height: 90px;
+                        ;
+                    }
+                }
+            }
+        }
+        
+        @include lg-screen {
+            .main-sec {
+                .hero-sec {
+                    // background-color: red;
+                    padding-top: 2rem;
+                    .hero-para {
+                        margin-top: 6rem;
+                    }
+                }
+                .heading-col {
+                    height: 300px;
+                }
+            }
+            // selectors
+            .selectors {
+                // background-color: red !important;
+                height: 100%;
+                border-radius: 20px;
+                margin-top: -2.8rem;
+                .Price {
+                    margin-top: 1.5rem;
+                }
+                button {
+                    margin-top: 2rem;
+                    width: 120px;
+                    height: 50px;
+                }
+            }
+        }
+        
+        @include md-screen {
+            .main-sec {
+                .heading-col {
+                    height: 270px;
+                    h3 {
+                        // background-color: red;
+                        font-size: 35px;
+                        line-height: 70px;
+                        ;
+                    }
+                }
+            }
+        }
+        
+        @include sm-screen {
+            .main-sec {
+                .heading-col {
+                    height: 250px;
+                    h3 {
+                        // background-color: blue;
+                        font-size: 30px;
+                        line-height: 70px;
+                        ;
+                    }
+                }
+            }
+            // selectors
+            .selectors {
+                // background-color: red !important;
+                margin-left: 0.04rem;
+                .property {
+                    margin-top: 1.5rem;
+                    // background-color: blue;
                 }
             }
         }

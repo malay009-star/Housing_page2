@@ -1,15 +1,9 @@
-.total-location {
-    // background-color: red;
-    width: 305px;
-    height: 270px;
-    flex-shrink: 0;
-}
-
 // why should choose us
 .chooseUs-sec {
     background-color: #F9F9F9;
 }
 
+// why should choose us
 .why-should {
     a {
         font-size: 18px;
@@ -57,6 +51,53 @@
         &:hover {
             color: #ff4c96;
             padding-left: 10px;
+        }
+    }
+}
+
+@include lg-screen {
+    .property-ready {
+        margin-bottom: 2rem;
+    }
+    .title-collison button {
+        // background-color: red;
+        margin-top: 0rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@include md-screen {
+    .accuracy-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // background-color: red !important;
+    }
+    .big-image {
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+    // why should chooose us
+    .why-should .high-quality {
+        // background-color: red;
+        margin: 3rem 0rem;
+    }
+}
+
+@include sm-screen {
+    .form {
+        button {
+            margin-top: 1rem;
+            margin-bottom: 5rem;
+        }
+    }
+    .Copywrite {
+        p {
+            font-size: 15px;
+            // background-color: red;
+        }
+        .terms-service {
+            padding-left: 0;
         }
     }
 }
