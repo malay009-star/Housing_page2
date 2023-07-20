@@ -1,21 +1,3 @@
-// why should choose us
-.chooseUs-sec {
-    background-color: #F9F9F9;
-}
-
-// why should choose us
-.why-should {
-    a {
-        font-size: 18px;
-    }
-    .second-learn {
-        color: #B236FF;
-    }
-    .third-learn {
-        color: #2857FF;
-    }
-}
-
 // form
 .form {
     input {
@@ -52,35 +34,6 @@
             color: #ff4c96;
             padding-left: 10px;
         }
-    }
-}
-
-@include lg-screen {
-    .property-ready {
-        margin-bottom: 2rem;
-    }
-    .title-collison button {
-        // background-color: red;
-        margin-top: 0rem;
-        margin-bottom: 4rem;
-    }
-}
-
-@include md-screen {
-    .accuracy-images {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        // background-color: red !important;
-    }
-    .big-image {
-        margin-bottom: 3rem;
-        margin-top: 1rem;
-    }
-    // why should chooose us
-    .why-should .high-quality {
-        // background-color: red;
-        margin: 3rem 0rem;
     }
 }
 

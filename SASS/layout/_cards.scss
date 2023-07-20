@@ -1,0 +1,28 @@
+.menu-sec {
+    select {
+        cursor: pointer;
+    }
+    #menu {
+        // background-color: red !important;
+        cursor: pointer;
+    }
+    .dash-img {
+        cursor: pointer;
+    }
+}
+
+// cards section
+.caard {
+    h6 {
+        margin-bottom: 0rem;
+    }
+    button {
+        &:hover {
+            background-color: hwb(335 28% 0%) !important;
+        }
+    }
+}
+
+.active>.page-link {
+    background-color: $primary-color;
+}

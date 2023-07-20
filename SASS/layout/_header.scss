@@ -1,252 +1,195 @@
-        .main-sec {
-            background-image: url('../../assets/img/bg1-img.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: bottom;
-            background-color: rgba(0, 0, 0, 0.7);
-            z-index: 1051;
-            position: relative;
-            &::after {
-                content: "";
-                background-color: rgba(0, 0, 0, 0.7);
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                right: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                z-index: 0;
-            }
-            .inner-content {
-                width: 86%;
-                margin: auto;
-                position: relative;
-                z-index: 1;
-                // background-color: red;
-            }
-            .navbar {
-                // background-color: red;
-                height: 100px;
-                .navbar-brand {
-                    flex-grow: 15;
-                    display: inline-block;
-                }
-            }
-            .navbar-nav a {
-                color: #FFF;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: normal;
-                margin-right: 0.8rem;
-                &:hover {
-                    color: $white-color;
-                }
-            }
-            #login-btns {
-                border: 1px solid #FF368A;
-                width: 145px;
-                height: 48px;
-                flex-shrink: 0;
-                color: $primary-color;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                border-radius: 12px;
-                line-height: normal;
-                background-color: transparent;
-            }
-            #login-btns:hover {
-                background-color: $primary-color;
-                color: white;
-            }
-            // hero section start
-            .hero-sec {
-                padding-top: 2.8rem;
-                padding-bottom: 10rem;
-                .hero-para {
-                    display: flex;
-                    align-items: flex-end;
-                    // height: 100%;
-                    line-height: 28px;
-                    font-size: 16px;
-                    font-weight: 400;
-                    color: $white-color;
-                    p {
-                        border-left: 3px solid $white-color;
-                        background: rgba(255, 255, 255, 0.1);
-                        backdrop-filter: blur(5px);
-                        padding: 10px;
-                        margin: 0px;
-                    }
-                }
-            }
-            .heading-col {
-                height: 345px;
-                // background-color: red;
-                h3 {
-                    // background-color: red;
-                    color: #FFF;
-                    font-size: 52px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 100px;
-                    font-family: myFont;
-                    ;
-                }
-                .get-btn {
-                    align-items: center;
-                    background: rgba(255, 255, 255, 0.1);
-                    backdrop-filter: blur(5px);
-                    border-left: 3px solid white;
-                    // margin-top: 5rem;
-                }
-                .get-btn a:nth-child(2) {
-                    display: inline-block;
-                    padding: 17px 15px;
-                    background-color: white;
-                    &:hover {
-                        background-color: rgb(235, 235, 235);
-                    }
-                }
+    .main-sec {
+        background-image: url('../../assets/img/bg-img.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1051;
+        position: relative;
+        .navbar {
+            // background-color: red;
+            height: 100px;
+            .navbar-brand {
+                flex-grow: 15;
+                display: inline-block;
             }
         }
-        
-        // selectors sections
-        .selectors {
-            // width: 970px;
-            // margin: auto;
-            // align-items: center;
-            height: 80px;
-            flex-shrink: 0;
-            padding: 10px;
-            margin-top: -2rem;
-            position: relative;
-            z-index: 1052;
-            .img-align {
-                align-items: center;
+        .navbar-nav a {
+            color: #FFF;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-right: 0.8rem;
+            &:hover {
+                color: $white-color;
             }
-            img {
-                cursor: pointer;
-                width: 40px;
-                height: 38px;
-                margin-right: 1rem;
-                background-color: #F7EBFF;
-                padding: 8px;
-                border-radius: 20px;
-                &:hover {
-                    background-color: #f4e2ff;
-                }
+        }
+        .account-btn {
+            padding: 13px 12px;
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+            border-radius: 12px;
+            line-height: normal;
+            border: none;
+            background-color: $primary-color;
+            transition: all 0.3s ease;
+            &:hover {
+                transform: scale(1.07);
             }
-            select {
-                backdrop-filter: red;
-                cursor: pointer;
-            }
-            form {
-                cursor: pointer;
+        }
+        #login-btns {
+            padding: 13px 43px;
+            border: 1px solid #FF368A;
+            background-color: transparent;
+            color: $primary-color;
+        }
+        #login-btns:hover {
+            background-color: $primary-color;
+            color: white;
+        }
+        // hero section start
+        .hero-sec {
+            height: 400px;
+            // padding-bottom: 5rem;
+            align-items: center;
+            // background-color: red;
+            h3 {
                 // background-color: red;
-                font-size: 15px;
+                color: #FFF;
+                font-size: 52px;
+                font-style: normal;
+                font-weight: 350;
+                line-height: 100px;
+                font-family: myFont;
+                ;
             }
-            p {
-                margin-bottom: 0;
+        }
+    }
+    
+    // selectors sections
+    .selectors {
+        height: 80px;
+        flex-shrink: 0;
+        padding: 10px;
+        margin-top: -2rem;
+        position: relative;
+        z-index: 1052;
+        .img-align {
+            align-items: center;
+        }
+        img {
+            cursor: pointer;
+            width: 40px;
+            height: 38px;
+            margin-right: 1rem;
+            background-color: #F7EBFF;
+            padding: 8px;
+            border-radius: 20px;
+            &:hover {
+                background-color: #f4e2ff;
+            }
+        }
+        select {
+            cursor: pointer;
+        }
+        form {
+            cursor: pointer;
+            // background-color: red;
+            font-size: 15px;
+        }
+        p {
+            margin-bottom: 0;
+        }
+        button {
+            width: 135px;
+            height: 60px;
+            flex-shrink: 0;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            &:hover {
+                transform: scale(1.05);
+                background-color: $primary-color;
+            }
+        }
+    }
+    
+    // media queries 
+    @include xl-screen {}
+    
+    @include lg-screen {
+        .main-sec {
+            // .navbar button{
+            //     margin-top: 5rem;
+            // }
+            .navbar-collapse {
+                padding: 2rem 0rem;
+                text-align: center;
+                border-radius: 10px;
+                background-color: #000000b5;
+            }
+        }
+        // selectors
+        .selectors {
+            // background-color: red !important;
+            height: 100%;
+            border-radius: 20px;
+            margin-top: -2.8rem;
+            .Price {
+                margin-top: 1.5rem;
             }
             button {
-                width: 135px;
-                height: 60px;
-                flex-shrink: 0;
-                border-radius: 50px;
-                transition: all 0.3s ease;
-                &:hover {
-                    transform: scale(1.05);
-                    background-color: $primary-color;
-                }
+                margin-top: 2rem;
+                width: 120px;
+                height: 50px;
             }
         }
-        
-        // media queries 
-        @include xl-screen {
-            .main-sec {
-                .hero-sec {
+    }
+    
+    @include md-screen {
+        .main-sec {
+            .hero-sec {
+                h3 {
+                    font-size: 45px;
                     // background-color: red;
-                    padding-top: 1rem;
-                }
-                .heading-col {
-                    height: 345px;
-                    // background-color: red;
-                    h3 {
-                        // background-color: blue;
-                        font-size: 45px;
-                        line-height: 90px;
-                        ;
-                    }
                 }
             }
         }
-        
-        @include lg-screen {
-            .main-sec {
-                .hero-sec {
-                    // background-color: red;
-                    padding-top: 2rem;
-                    .hero-para {
-                        margin-top: 6rem;
-                    }
-                }
-                .heading-col {
-                    height: 300px;
-                }
-            }
-            // selectors
-            .selectors {
-                // background-color: red !important;
-                height: 100%;
-                border-radius: 20px;
-                margin-top: -2.8rem;
-                .Price {
-                    margin-top: 1.5rem;
-                }
-                button {
-                    margin-top: 2rem;
-                    width: 120px;
-                    height: 50px;
-                }
+    }
+    
+    @include md-mobile {
+        .selectors {
+            // height: 180px;
+            width: 340px !important;
+            // background-color: red !important;
+        }
+    }
+    
+    @include sm-screen {
+        .main-sec .hero-sec {
+            height: 450px;
+            h3 {
+                line-height: 80px;
             }
         }
-        
-        @include md-screen {
-            .main-sec {
-                .heading-col {
-                    height: 270px;
-                    h3 {
-                        // background-color: red;
-                        font-size: 35px;
-                        line-height: 70px;
-                        ;
-                    }
-                }
+        // selectors
+        .selectors {
+            // background-color: red !important;
+            margin-top: -5rem;
+            width: 420px;
+            flex-direction: column;
+            justify-content: center;
+            padding: 1rem 0rem;
+            .justify-center {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .property {
+                margin-top: 1.5rem;
+                // background-color: blue;
             }
         }
-        
-        @include sm-screen {
-            .main-sec {
-                .heading-col {
-                    height: 250px;
-                    h3 {
-                        // background-color: blue;
-                        font-size: 30px;
-                        line-height: 70px;
-                        ;
-                    }
-                }
-            }
-            // selectors
-            .selectors {
-                // background-color: red !important;
-                margin-left: 0.04rem;
-                .property {
-                    margin-top: 1.5rem;
-                    // background-color: blue;
-                }
-            }
-        }
+    }
